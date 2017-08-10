@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug"/>
+				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lessons">
-				<Option output="/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Lessons" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug"/>
+				<Option output="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Lessons" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lessons"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lessons"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lessons/fast">
-				<Option output="/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Lessons" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug"/>
+				<Option output="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Lessons" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,20 +75,23 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lessons/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lessons/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Lessons/Callback-function/Callback-function.cpp">
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/BinarySearchTree">
 			<Option target="Lessons"/>
 		</Unit>
-		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Lessons/Functional record/main.cpp">
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Callback-function/Callback-function.cpp">
 			<Option target="Lessons"/>
 		</Unit>
-		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Lessons/CMakeLists.txt">
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Functional record/main.cpp">
+			<Option target="Lessons"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

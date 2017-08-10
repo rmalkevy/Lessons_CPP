@@ -1,4 +1,4 @@
-# Install script for directory: /nfs/2016/r/rmalkevy/CLionProjects/Lessons
+# Install script for directory: /nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

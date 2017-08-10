@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/nfs/2016/r/rmalkevy/CLionProjects/Lessons/Callback-function/Callback-function.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/CMakeFiles/Lessons.dir/Callback-function/Callback-function.cpp.o"
-  "/nfs/2016/r/rmalkevy/CLionProjects/Lessons/Functional record/main.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Lessons/cmake-build-debug/CMakeFiles/Lessons.dir/Functional_record/main.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Callback-function/Callback-function.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles/Lessons.dir/Callback-function/Callback-function.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Functional record/main.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles/Lessons.dir/Functional_record/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

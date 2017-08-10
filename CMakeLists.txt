@@ -3,5 +3,7 @@ project(Lessons)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES "Functional record/main.cpp" Callback-function/Callback-function.cpp)
+set(SOURCE_FILES "Functional record/main.cpp"
+        Callback-function/Callback-function.cpp
+        BinarySearchTree)
 add_executable(Lessons ${SOURCE_FILES})
