@@ -4,9 +4,15 @@
 
 #include "BinarySearchTree.h"
 
+BST::~BST()
+{
+	DestroyTree();
+}
+
 BST *BST::NewNode(int key)
 {
-	auto node = new BST(key);
+	auto node = new BST;
+	node->key = key;
 	node->nodeLeft = nullptr;
 	node->nodeRight = nullptr;
 	return node;
@@ -46,5 +52,48 @@ BST* BST::Search(BST *tree, int key)
 		return tree;
 	if (tree->key < key)
 		return Search(tree->nodeRight, key);
+
 	return Search(tree->nodeLeft, key);
+}
+
+void BST::Insert(int key)
+{
+	if (root != nullptr)
+		InsertNode(root, key);
+	else
+		root = NewNode(key);
+}
+
+void BST::Print()
+{
+	Print(root);
+}
+
+BST* BST::Search(int key)
+{
+	return Search(root, key);
+}
+
+void BST::DestroyTree()
+{
+	DestroyTree(root);
+}
+
+void BST::DestroyTree(BST *node)
+{
+	if (node != nullptr)
+	{
+		DestroyTree(node->nodeLeft);
+		DestroyTree(node->nodeRight);
+		delete node;
+	}
+}
+
+BST& BST::operator=(BST *node)
+{
+	this->key = node->key;
+	this->nodeRight = node->nodeRight;
+	this->nodeLeft = node->nodeLeft;
+	this->root = node->root;
+	return *this;
 }

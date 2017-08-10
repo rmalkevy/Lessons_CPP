@@ -6,23 +6,25 @@
 
 int main()
 {
-	auto *tree = new BST(89);
+	auto tree = new BST;
 
-	tree->InsertNode(tree, 56);
-	tree->InsertNode(tree, 1);
-	tree->InsertNode(tree, 6);
+	tree->Insert(56);
+	tree->Insert(1);
+	tree->Insert(6);
 
-	tree->InsertNode(tree, 556);
-	tree->InsertNode(tree, 99);
-	tree->InsertNode(tree, 90);
-	tree->InsertNode(tree, 6);
-	tree->InsertNode(tree, 5);
-	tree->InsertNode(tree, 34);
+	tree->Insert(556);
+	tree->Insert(99);
+	tree->Insert(90);
+	tree->Insert(6);
+	tree->Insert(5);
+	tree->Insert(34);
 
-//	tree->Print(tree);
+	tree->Print();
 
-	auto node = tree->Search(tree, 556);
+	BST *node = tree->Search(556);
 
-	node->Print(node);
+
+//	std::cout << node->key << std::endl;
+	node->Print();
 	return 0;
 }
