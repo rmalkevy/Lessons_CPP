@@ -4,7 +4,7 @@
 
 #include "BinarySearchTree.h"
 
-BST *BST::newNode(int key)
+BST *BST::NewNode(int key)
 {
 	auto node = new BST(key);
 	node->nodeLeft = nullptr;
@@ -12,36 +12,39 @@ BST *BST::newNode(int key)
 	return node;
 }
 
-void BST::insertNode(BST *node, int key)
+void BST::InsertNode(BST *node, int key)
 {
 	if (node->key > key)
 	{
 		if (node->nodeLeft == nullptr)
-			node->nodeLeft = newNode(key);
+			node->nodeLeft = NewNode(key);
 		else
-			insertNode(node->nodeLeft, key);
+			InsertNode(node->nodeLeft, key);
 	}
 	else if (node->key < key)
 	{
 		if (node->nodeRight == nullptr)
-			node->nodeRight = newNode(key);
+			node->nodeRight = NewNode(key);
 		else
-			insertNode(node->nodeRight, key);
+			InsertNode(node->nodeRight, key);
 	}
 }
 
-void BST::print(BST *node)
+void BST::Print(BST *node)
 {
 	if (node != nullptr)
 	{
-		node->print(node->nodeLeft);
+		Print(node->nodeLeft);
 		std::cout << node->key << std::endl;
-		node->print(node->nodeRight);
+		Print(node->nodeRight);
 	}
 }
 
-BST &BST::operator = (const BST &node)
+BST* BST::Search(BST *tree, int key)
 {
-	*this = node;
-	return *this;
+	if (tree == nullptr || tree->key == key)
+		return tree;
+	if (tree->key < key)
+		return Search(tree->nodeRight, key);
+	return Search(tree->nodeLeft, key);
 }

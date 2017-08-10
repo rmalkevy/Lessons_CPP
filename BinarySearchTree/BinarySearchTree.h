@@ -17,10 +17,9 @@ public:
 	BST *nodeLeft = nullptr;
 	BST *nodeRight = nullptr;
 
-	BST     *newNode(int key);
-	void    insertNode(BST *node, int key);
-	void    print(BST *node);
-
-	BST &operator = (const BST &node);
+	BST     *NewNode(int key);
+	void    InsertNode(BST *node, int key);
+	void    Print(BST *node);
+	BST     *Search(BST *tree, int key);
 };
 #endif //LESSONS_BINARYSEARCHTREE_H
