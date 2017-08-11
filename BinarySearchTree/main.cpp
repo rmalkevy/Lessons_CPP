@@ -21,10 +21,8 @@ int main()
 
 	tree->Print();
 
-	BST *node = tree->Search(556);
+	Node *node = tree->Search(1);
 
-
-//	std::cout << node->key << std::endl;
-	node->Print();
+	tree->Print(node);
 	return 0;
 }

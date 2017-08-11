@@ -9,16 +9,16 @@ BST::~BST()
 	DestroyTree();
 }
 
-BST *BST::NewNode(int key)
+Node *BST::NewNode(int key)
 {
-	auto node = new BST;
+	auto node = new Node;
 	node->key = key;
 	node->nodeLeft = nullptr;
 	node->nodeRight = nullptr;
 	return node;
 }
 
-void BST::InsertNode(BST *node, int key)
+void BST::InsertNode(Node *node, int key)
 {
 	if (node->key > key)
 	{
@@ -36,7 +36,7 @@ void BST::InsertNode(BST *node, int key)
 	}
 }
 
-void BST::Print(BST *node)
+void BST::Print(Node *node)
 {
 	if (node != nullptr)
 	{
@@ -46,7 +46,7 @@ void BST::Print(BST *node)
 	}
 }
 
-BST* BST::Search(BST *tree, int key)
+Node* BST::Search(Node *tree, int key)
 {
 	if (tree == nullptr || tree->key == key)
 		return tree;
@@ -54,6 +54,17 @@ BST* BST::Search(BST *tree, int key)
 		return Search(tree->nodeRight, key);
 
 	return Search(tree->nodeLeft, key);
+}
+
+Node* BST::SearchForDelete(Node *tree, Node **parent, int key)
+{
+	if (tree == nullptr || tree->key == key)
+		return tree;
+	parent = &tree;
+	if (tree->key < key)
+		return SearchForDelete(tree->nodeRight, parent, key);
+
+	return SearchForDelete(tree->nodeLeft, parent, key);
 }
 
 void BST::Insert(int key)
@@ -69,7 +80,7 @@ void BST::Print()
 	Print(root);
 }
 
-BST* BST::Search(int key)
+Node* BST::Search(int key)
 {
 	return Search(root, key);
 }
@@ -79,7 +90,7 @@ void BST::DestroyTree()
 	DestroyTree(root);
 }
 
-void BST::DestroyTree(BST *node)
+void BST::DestroyTree(Node *node)
 {
 	if (node != nullptr)
 	{
@@ -89,11 +100,30 @@ void BST::DestroyTree(BST *node)
 	}
 }
 
-BST& BST::operator=(BST *node)
+void BST::deleteNode(int key)
 {
-	this->key = node->key;
-	this->nodeRight = node->nodeRight;
-	this->nodeLeft = node->nodeLeft;
-	this->root = node->root;
-	return *this;
+	Node *parent = nullptr;
+	Node *node = SearchForDelete(root, &parent, key);
+	if (node != nullptr)
+	{
+		// first
+		if (node->nodeLeft != nullptr && node->nodeRight == nullptr)
+		{
+			if (parent != nullptr)
+			{
+				parent->nodeLeft = node->nodeLeft;
+				delete node;
+			}
+		}
+
+	}
 }
+
+//BST& BST::operator=(BST *node)
+//{
+//	this->key = node->key;
+//	this->nodeRight = node->nodeRight;
+//	this->nodeLeft = node->nodeLeft;
+//	this->root = node->root;
+//	return *this;
+//}

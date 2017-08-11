@@ -7,11 +7,11 @@
 
 #include <iostream>
 
-struct node
+struct Node
 {
 	int key;
-	node *nodeLeft;
-	node *nodeRight;
+	Node *nodeLeft;
+	Node *nodeRight;
 };
 
 class BST
@@ -22,20 +22,21 @@ public:
 
 	void    Insert(int key);
 	void    Print();
-	BST     *Search(int key);
+	void    Print(Node *node);
+	Node    *Search(int key);
+	void    deleteNode(int key);
 	void    DestroyTree();
 
-	BST &operator = (BST *node);
 private:
-	BST     *NewNode(int key);
-	void    InsertNode(BST *node, int key);
-	void    Print(BST *node);
-	BST     *Search(BST *tree, int key);
-	void    DestroyTree(BST *node);
+	Node    *NewNode(int key);
+	void    InsertNode(Node *node, int key);
+	Node    *Search(Node *tree, int key);
+	Node    *SearchForDelete(Node *tree, Node **parent, int key);
+	void    DestroyTree(Node *node);
 
-	int key;
-	BST *nodeLeft = nullptr;
-	BST *nodeRight = nullptr;
-	BST *root = nullptr;
+	int     key;
+//	Node    *nodeLeft = nullptr;
+//	Node    *nodeRight = nullptr;
+	Node    *root = nullptr;
 };
 #endif //LESSONS_BINARYSEARCHTREE_H
