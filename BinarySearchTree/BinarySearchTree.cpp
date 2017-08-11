@@ -60,7 +60,8 @@ Node* BST::SearchForDelete(Node *tree, Node **parent, int key)
 {
 	if (tree == nullptr || tree->key == key)
 		return tree;
-	parent = &tree;
+	*parent = tree;
+//	std::cout << "checkout parent" << std::endl;
 	if (tree->key < key)
 		return SearchForDelete(tree->nodeRight, parent, key);
 
@@ -107,12 +108,19 @@ void BST::deleteNode(int key)
 	if (node != nullptr)
 	{
 		// first
-		if (node->nodeLeft != nullptr && node->nodeRight == nullptr)
+//		std::cout << "checkout node" << std::endl;
+		if (node->nodeLeft != nullptr)
 		{
-			if (parent != nullptr)
+//			std::cout << "checkout Left" << std::endl;
+			if (node->nodeRight == nullptr)
 			{
-				parent->nodeLeft = node->nodeLeft;
-				delete node;
+//				std::cout << "checkout Right" << std::endl;
+				if (parent != nullptr)
+				{
+//					std::cout << "checkout delete" << std::endl;
+					parent->nodeLeft = node->nodeLeft;
+					delete node;
+				}
 			}
 		}
 

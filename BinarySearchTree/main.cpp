@@ -15,14 +15,18 @@ int main()
 	tree->Insert(556);
 	tree->Insert(99);
 	tree->Insert(90);
+	tree->Insert(89);
 	tree->Insert(6);
 	tree->Insert(5);
 	tree->Insert(34);
 
 	tree->Print();
 
-	Node *node = tree->Search(1);
+	tree->deleteNode(90);
 
-	tree->Print(node);
+	tree->Print();
+//	Node *node = tree->Search(1);
+//
+//	tree->Print(node);
 	return 0;
 }

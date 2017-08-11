@@ -35,8 +35,6 @@ private:
 	void    DestroyTree(Node *node);
 
 	int     key;
-//	Node    *nodeLeft = nullptr;
-//	Node    *nodeRight = nullptr;
 	Node    *root = nullptr;
 };
 #endif //LESSONS_BINARYSEARCHTREE_H
