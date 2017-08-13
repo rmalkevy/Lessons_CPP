@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(SOURCE_FILES "Functional record/main.cpp"
         Callback-function/Callback-function.cpp
-        BinarySearchTree)
+        BinarySearchTree Recursion/Recursion.cpp)
 add_executable(Lessons ${SOURCE_FILES})

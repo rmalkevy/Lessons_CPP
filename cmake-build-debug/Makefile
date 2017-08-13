@@ -177,6 +177,33 @@ Functional_record/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Functional_record/main.cpp.s
 .PHONY : Functional_record/main.cpp.s
 
+Recursion/Recursion.o: Recursion/Recursion.cpp.o
+
+.PHONY : Recursion/Recursion.o
+
+# target to build an object file
+Recursion/Recursion.cpp.o:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Recursion/Recursion.cpp.o
+.PHONY : Recursion/Recursion.cpp.o
+
+Recursion/Recursion.i: Recursion/Recursion.cpp.i
+
+.PHONY : Recursion/Recursion.i
+
+# target to preprocess a source file
+Recursion/Recursion.cpp.i:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Recursion/Recursion.cpp.i
+.PHONY : Recursion/Recursion.cpp.i
+
+Recursion/Recursion.s: Recursion/Recursion.cpp.s
+
+.PHONY : Recursion/Recursion.s
+
+# target to generate assembly for a file
+Recursion/Recursion.cpp.s:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Recursion/Recursion.cpp.s
+.PHONY : Recursion/Recursion.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... Functional_record/main.o"
 	@echo "... Functional_record/main.i"
 	@echo "... Functional_record/main.s"
+	@echo "... Recursion/Recursion.o"
+	@echo "... Recursion/Recursion.i"
+	@echo "... Recursion/Recursion.s"
 .PHONY : help
 
 

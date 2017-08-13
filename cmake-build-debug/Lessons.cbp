@@ -91,6 +91,9 @@
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Functional record/main.cpp">
 			<Option target="Lessons"/>
 		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Recursion/Recursion.cpp">
+			<Option target="Lessons"/>
+		</Unit>
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

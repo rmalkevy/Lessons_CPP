@@ -58,6 +58,9 @@ Node* BST::Search(Node *tree, int key)
 
 Node* BST::SearchForDelete(Node *tree, Node **parent, int key)
 {
+	// TODO You must know about relation with parent and node
+	// (parent -> left or right)
+
 	if (tree == nullptr || tree->key == key)
 		return tree;
 	*parent = tree;
@@ -101,37 +104,48 @@ void BST::DestroyTree(Node *node)
 	}
 }
 
-void BST::deleteNode(int key)
+Node *minValueNode(Node *node)
 {
-	Node *parent = nullptr;
-	Node *node = SearchForDelete(root, &parent, key);
-	if (node != nullptr)
-	{
-		// first
-//		std::cout << "checkout node" << std::endl;
-		if (node->nodeLeft != nullptr)
-		{
-//			std::cout << "checkout Left" << std::endl;
-			if (node->nodeRight == nullptr)
-			{
-//				std::cout << "checkout Right" << std::endl;
-				if (parent != nullptr)
-				{
-//					std::cout << "checkout delete" << std::endl;
-					parent->nodeLeft = node->nodeLeft;
-					delete node;
-				}
-			}
-		}
+	Node *current = node;
 
-	}
+	while (current->nodeLeft != nullptr)
+		current = current->nodeLeft;
+	return ( current );
 }
 
-//BST& BST::operator=(BST *node)
-//{
-//	this->key = node->key;
-//	this->nodeRight = node->nodeRight;
-//	this->nodeLeft = node->nodeLeft;
-//	this->root = node->root;
-//	return *this;
-//}
+Node *BST::deleteNode(Node *root, int key)
+{
+	if (root == nullptr)
+		return ( root );
+
+	if (key < root->key)
+		root->nodeLeft = deleteNode(root->nodeLeft, key);
+	else if (key > root->key)
+		root->nodeRight = deleteNode(root->nodeRight, key);
+	else
+	{
+		if (root->nodeLeft == nullptr)
+		{
+			Node *temp = root->nodeRight;
+			delete root;
+			return ( temp );
+		}
+		if (root->nodeRight == nullptr)
+		{
+			Node *temp = root->nodeLeft;
+			delete root;
+			return ( temp );
+		}
+		// Node with two children
+		Node *temp = minValueNode(root);
+		root->key = temp->key;
+
+		root->nodeRight = deleteNode(root->nodeRight, temp->key);
+	}
+	return root;
+}
+
+Node *BST::deleteNode(int key)
+{
+	return deleteNode(root, key);
+}

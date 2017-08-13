@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Lessons.dir/Functional_record/main.cpp.o"
   "CMakeFiles/Lessons.dir/Callback-function/Callback-function.cpp.o"
+  "CMakeFiles/Lessons.dir/Recursion/Recursion.cpp.o"
   "Lessons.pdb"
   "Lessons"
 )

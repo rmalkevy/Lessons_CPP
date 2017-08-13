@@ -24,13 +24,14 @@ public:
 	void    Print();
 	void    Print(Node *node);
 	Node    *Search(int key);
-	void    deleteNode(int key);
+	Node    *deleteNode(int key);
 	void    DestroyTree();
 
 private:
 	Node    *NewNode(int key);
 	void    InsertNode(Node *node, int key);
 	Node    *Search(Node *tree, int key);
+	Node    *deleteNode(Node *root, int key);
 	Node    *SearchForDelete(Node *tree, Node **parent, int key);
 	void    DestroyTree(Node *node);
 

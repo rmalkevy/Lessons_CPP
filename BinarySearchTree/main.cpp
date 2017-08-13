@@ -19,12 +19,18 @@ int main()
 	tree->Insert(6);
 	tree->Insert(5);
 	tree->Insert(34);
+	tree->Insert(45);
+	tree->Insert(2);
+	tree->Insert(67);
+	tree->Insert(455);
 
 	tree->Print();
 
-	tree->deleteNode(90);
+	Node *delete556 = tree->deleteNode(556);
+	tree->Print(delete556);
+	Node *delete67 = tree->deleteNode(67);
 
-	tree->Print();
+	tree->Print(delete67);
 //	Node *node = tree->Search(1);
 //
 //	tree->Print(node);
