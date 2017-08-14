@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Lessons.dir/Functional_record/main.cpp.o"
   "CMakeFiles/Lessons.dir/Callback-function/Callback-function.cpp.o"
   "CMakeFiles/Lessons.dir/Recursion/Recursion.cpp.o"
+  "CMakeFiles/Lessons.dir/Operations_with_bits/main.cpp.o"
   "Lessons.pdb"
   "Lessons"
 )

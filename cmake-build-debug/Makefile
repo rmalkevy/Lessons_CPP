@@ -177,6 +177,33 @@ Functional_record/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Functional_record/main.cpp.s
 .PHONY : Functional_record/main.cpp.s
 
+Operations_with_bits/main.o: Operations_with_bits/main.cpp.o
+
+.PHONY : Operations_with_bits/main.o
+
+# target to build an object file
+Operations_with_bits/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/main.cpp.o
+.PHONY : Operations_with_bits/main.cpp.o
+
+Operations_with_bits/main.i: Operations_with_bits/main.cpp.i
+
+.PHONY : Operations_with_bits/main.i
+
+# target to preprocess a source file
+Operations_with_bits/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/main.cpp.i
+.PHONY : Operations_with_bits/main.cpp.i
+
+Operations_with_bits/main.s: Operations_with_bits/main.cpp.s
+
+.PHONY : Operations_with_bits/main.s
+
+# target to generate assembly for a file
+Operations_with_bits/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/main.cpp.s
+.PHONY : Operations_with_bits/main.cpp.s
+
 Recursion/Recursion.o: Recursion/Recursion.cpp.o
 
 .PHONY : Recursion/Recursion.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Functional_record/main.o"
 	@echo "... Functional_record/main.i"
 	@echo "... Functional_record/main.s"
+	@echo "... Operations_with_bits/main.o"
+	@echo "... Operations_with_bits/main.i"
+	@echo "... Operations_with_bits/main.s"
 	@echo "... Recursion/Recursion.o"
 	@echo "... Recursion/Recursion.i"
 	@echo "... Recursion/Recursion.s"
