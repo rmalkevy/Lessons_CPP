@@ -2,18 +2,7 @@
 // Created by Roman Malkevych on 8/14/17.
 //
 
-#include <iostream>
-#include <vector>
-
-std::vector<unsigned> extractColorsRGB(const unsigned long &RGB)
-{
-	std::vector<unsigned> color(3);
-	color[0] = RGB >> 16; // get RED color
-	color[1] = (RGB >> 8) - (color[0] << 8); // get GREEN color
-	color[2] = RGB - (color[0] << 16) - (color[1] << 8);
-	return ( color );
-}
-
+#include "Bits.h"
 
 int main()
 {
@@ -23,6 +12,18 @@ int main()
 	{
 		std::cout << it << std::endl;
 	}
+
+	auto color = extractColorsRGB(getRGBcolor(255, 255, 22));
+	for (auto it : color)
+	{
+		std::cout << it << std::endl;
+	}
+
+	std::cout << floatShiftRight(56.954, 1) << std::endl;
+
+
+	// Algorithms
+
 
 
 	return ( 0 );

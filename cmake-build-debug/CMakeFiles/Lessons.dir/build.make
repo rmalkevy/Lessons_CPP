@@ -153,12 +153,87 @@ CMakeFiles/Lessons.dir/Operations_with_bits/main.cpp.o.provides: CMakeFiles/Less
 CMakeFiles/Lessons.dir/Operations_with_bits/main.cpp.o.provides.build: CMakeFiles/Lessons.dir/Operations_with_bits/main.cpp.o
 
 
+CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o: CMakeFiles/Lessons.dir/flags.make
+CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o: ../Operations\ with\ bits/Color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o -c "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Operations with bits/Color.cpp"
+
+CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Operations with bits/Color.cpp" > CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.i
+
+CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Operations with bits/Color.cpp" -o CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.s
+
+CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o.requires:
+
+.PHONY : CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o.requires
+
+CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o.provides: CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o.provides.build
+.PHONY : CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o.provides
+
+CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o.provides.build: CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o
+
+
+CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o: CMakeFiles/Lessons.dir/flags.make
+CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o: ../Operations\ with\ bits/Float.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o -c "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Operations with bits/Float.cpp"
+
+CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Operations with bits/Float.cpp" > CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.i
+
+CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Operations with bits/Float.cpp" -o CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.s
+
+CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o.requires:
+
+.PHONY : CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o.requires
+
+CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o.provides: CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o.provides.build
+.PHONY : CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o.provides
+
+CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o.provides.build: CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o
+
+
+CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o: CMakeFiles/Lessons.dir/flags.make
+CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o: ../Operations\ with\ bits/BitAlgorithms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o -c "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Operations with bits/BitAlgorithms.cpp"
+
+CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Operations with bits/BitAlgorithms.cpp" > CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.i
+
+CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Operations with bits/BitAlgorithms.cpp" -o CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.s
+
+CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o.requires:
+
+.PHONY : CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o.requires
+
+CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o.provides: CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o.provides.build
+.PHONY : CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o.provides
+
+CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o.provides.build: CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o
+
+
 # Object files for target Lessons
 Lessons_OBJECTS = \
 "CMakeFiles/Lessons.dir/Functional_record/main.cpp.o" \
 "CMakeFiles/Lessons.dir/Callback-function/Callback-function.cpp.o" \
 "CMakeFiles/Lessons.dir/Recursion/Recursion.cpp.o" \
-"CMakeFiles/Lessons.dir/Operations_with_bits/main.cpp.o"
+"CMakeFiles/Lessons.dir/Operations_with_bits/main.cpp.o" \
+"CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o" \
+"CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o" \
+"CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o"
 
 # External object files for target Lessons
 Lessons_EXTERNAL_OBJECTS =
@@ -167,9 +242,12 @@ Lessons: CMakeFiles/Lessons.dir/Functional_record/main.cpp.o
 Lessons: CMakeFiles/Lessons.dir/Callback-function/Callback-function.cpp.o
 Lessons: CMakeFiles/Lessons.dir/Recursion/Recursion.cpp.o
 Lessons: CMakeFiles/Lessons.dir/Operations_with_bits/main.cpp.o
+Lessons: CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o
+Lessons: CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o
+Lessons: CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o
 Lessons: CMakeFiles/Lessons.dir/build.make
 Lessons: CMakeFiles/Lessons.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Lessons"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Lessons"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lessons.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +259,9 @@ CMakeFiles/Lessons.dir/requires: CMakeFiles/Lessons.dir/Functional_record/main.c
 CMakeFiles/Lessons.dir/requires: CMakeFiles/Lessons.dir/Callback-function/Callback-function.cpp.o.requires
 CMakeFiles/Lessons.dir/requires: CMakeFiles/Lessons.dir/Recursion/Recursion.cpp.o.requires
 CMakeFiles/Lessons.dir/requires: CMakeFiles/Lessons.dir/Operations_with_bits/main.cpp.o.requires
+CMakeFiles/Lessons.dir/requires: CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o.requires
+CMakeFiles/Lessons.dir/requires: CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o.requires
+CMakeFiles/Lessons.dir/requires: CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o.requires
 
 .PHONY : CMakeFiles/Lessons.dir/requires
 

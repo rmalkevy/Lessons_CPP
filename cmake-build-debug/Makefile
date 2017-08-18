@@ -177,6 +177,87 @@ Functional_record/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Functional_record/main.cpp.s
 .PHONY : Functional_record/main.cpp.s
 
+Operations_with_bits/BitAlgorithms.o: Operations_with_bits/BitAlgorithms.cpp.o
+
+.PHONY : Operations_with_bits/BitAlgorithms.o
+
+# target to build an object file
+Operations_with_bits/BitAlgorithms.cpp.o:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o
+.PHONY : Operations_with_bits/BitAlgorithms.cpp.o
+
+Operations_with_bits/BitAlgorithms.i: Operations_with_bits/BitAlgorithms.cpp.i
+
+.PHONY : Operations_with_bits/BitAlgorithms.i
+
+# target to preprocess a source file
+Operations_with_bits/BitAlgorithms.cpp.i:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.i
+.PHONY : Operations_with_bits/BitAlgorithms.cpp.i
+
+Operations_with_bits/BitAlgorithms.s: Operations_with_bits/BitAlgorithms.cpp.s
+
+.PHONY : Operations_with_bits/BitAlgorithms.s
+
+# target to generate assembly for a file
+Operations_with_bits/BitAlgorithms.cpp.s:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.s
+.PHONY : Operations_with_bits/BitAlgorithms.cpp.s
+
+Operations_with_bits/Color.o: Operations_with_bits/Color.cpp.o
+
+.PHONY : Operations_with_bits/Color.o
+
+# target to build an object file
+Operations_with_bits/Color.cpp.o:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o
+.PHONY : Operations_with_bits/Color.cpp.o
+
+Operations_with_bits/Color.i: Operations_with_bits/Color.cpp.i
+
+.PHONY : Operations_with_bits/Color.i
+
+# target to preprocess a source file
+Operations_with_bits/Color.cpp.i:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.i
+.PHONY : Operations_with_bits/Color.cpp.i
+
+Operations_with_bits/Color.s: Operations_with_bits/Color.cpp.s
+
+.PHONY : Operations_with_bits/Color.s
+
+# target to generate assembly for a file
+Operations_with_bits/Color.cpp.s:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.s
+.PHONY : Operations_with_bits/Color.cpp.s
+
+Operations_with_bits/Float.o: Operations_with_bits/Float.cpp.o
+
+.PHONY : Operations_with_bits/Float.o
+
+# target to build an object file
+Operations_with_bits/Float.cpp.o:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o
+.PHONY : Operations_with_bits/Float.cpp.o
+
+Operations_with_bits/Float.i: Operations_with_bits/Float.cpp.i
+
+.PHONY : Operations_with_bits/Float.i
+
+# target to preprocess a source file
+Operations_with_bits/Float.cpp.i:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.i
+.PHONY : Operations_with_bits/Float.cpp.i
+
+Operations_with_bits/Float.s: Operations_with_bits/Float.cpp.s
+
+.PHONY : Operations_with_bits/Float.s
+
+# target to generate assembly for a file
+Operations_with_bits/Float.cpp.s:
+	$(MAKE) -f CMakeFiles/Lessons.dir/build.make CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.s
+.PHONY : Operations_with_bits/Float.cpp.s
+
 Operations_with_bits/main.o: Operations_with_bits/main.cpp.o
 
 .PHONY : Operations_with_bits/main.o
@@ -246,6 +327,15 @@ help:
 	@echo "... Functional_record/main.o"
 	@echo "... Functional_record/main.i"
 	@echo "... Functional_record/main.s"
+	@echo "... Operations_with_bits/BitAlgorithms.o"
+	@echo "... Operations_with_bits/BitAlgorithms.i"
+	@echo "... Operations_with_bits/BitAlgorithms.s"
+	@echo "... Operations_with_bits/Color.o"
+	@echo "... Operations_with_bits/Color.i"
+	@echo "... Operations_with_bits/Color.s"
+	@echo "... Operations_with_bits/Float.o"
+	@echo "... Operations_with_bits/Float.i"
+	@echo "... Operations_with_bits/Float.s"
 	@echo "... Operations_with_bits/main.o"
 	@echo "... Operations_with_bits/main.i"
 	@echo "... Operations_with_bits/main.s"

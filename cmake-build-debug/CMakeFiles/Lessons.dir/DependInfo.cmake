@@ -6,6 +6,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Callback-function/Callback-function.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles/Lessons.dir/Callback-function/Callback-function.cpp.o"
   "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Functional record/main.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles/Lessons.dir/Functional_record/main.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Operations with bits/BitAlgorithms.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles/Lessons.dir/Operations_with_bits/BitAlgorithms.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Operations with bits/Color.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles/Lessons.dir/Operations_with_bits/Color.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Operations with bits/Float.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles/Lessons.dir/Operations_with_bits/Float.cpp.o"
   "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Operations with bits/main.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles/Lessons.dir/Operations_with_bits/main.cpp.o"
   "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/Recursion/Recursion.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/LessonsCPP/cmake-build-debug/CMakeFiles/Lessons.dir/Recursion/Recursion.cpp.o"
   )
